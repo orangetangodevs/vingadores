@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Projeto Marvel</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="./src/css/reset.css">
+  <link rel="stylesheet" href="./src/css/estilos.css">
+  <link rel="stylesheet" href="./src/css/responsive.css">
+</head>
+
+<body>
+  <header class="cabecalho">
+    <img class="logo" src="./src/imagens/logo.png" alt="Logo marvel">
+  </header>
+
+  <main class="selecao-de-personagens">
+    <section class="personagens">
+      <h1 class="titulo">Selecione um personagem</h1>
+      <ul class="lista-de-personagens">
+        <li class="personagem selecionado" id="homem-de-ferro" data-name="Homem de ferro"
+          data-description="O Homem de Ferro é um símbolo de esperança e inspiração para pessoas de todo o mundo. Ele é um lembrete de que qualquer um pode ser um herói, não importa suas origens.">
+          <img src="./src/imagens/card-homem-de-ferro.jpg" alt="Personagem Homem de ferro" />
+        </li>
+        <li class="personagem" id="capitao-america" data-name="capitao-america"
+          data-description="O Capitão América é um símbolo de esperança, coragem e determinação. Ele é um lembrete de que qualquer um pode ser um herói, não importa suas origens.">
+          <img src="./src/imagens/card-capitao-america.jpg" alt="Personagem Capitão america" />
+        </li>
+
+        <li class="personagem" id="hulk" data-name="Hulk"
+          data-description="O Hulk é um personagem poderoso e complexo que é o favorito dos fãs há décadas. Ele é um símbolo de força, poder e raiva, mas também é um lembrete de que mesmo as pessoas mais fortes têm fraquezas.">
+          <img src="./src/imagens/card-hulk.jpg" alt="Personagem Hulk" />
+        </li>
+
+        <li class="personagem" id="thor" data-name="Thor"
+          data-description="Thor é um super-herói poderoso e nobre que é o favorito dos fãs há décadas. Ele é um símbolo de força, poder e justiça, mas também é um lembrete de que mesmo as pessoas mais fortes têm fraquezas.">
+          <img src="./src/imagens/card-thor.jpg" alt="Personagem Thor" />
+        </li>
+
+        <li class="personagem" id="viuva-negra" data-name="Viúva negra"
+          data-description="A Viúva Negra é uma personagem popular e inspiradora. Ela é um lembrete de que qualquer um pode ser um herói, não importa seu passado.">
+          <img src="./src/imagens/card-viuva-negra.jpg" alt="Personagem Viúva negra" />
+        </li>
+
+
+
+        <li class="personagem" id="gaviao-arqueiro" data-name="Gavião arqueiro"
+          data-description="O Gavião Arqueiro é um personagem popular e inspirador. Ele é um lembrete de que qualquer um pode ser um herói, não importa seu passado.">
+          <img src="./src/imagens/card-gaviao-arqueiro.jpg" alt="Personagem Gavião arqueiro" />
+        </li>
+
+        <li class="personagem" id="homem-aranha" data-name="Homem aranha"
+          data-description="O Homem-Aranha é um símbolo de esperança e inspiração para pessoas de todas as idades. Ele é um lembrete de que qualquer um pode ser um herói, não importa suas origens.">
+          <img src="./src/imagens/card-homem-aranha.jpg" alt="Personagem Homem aranha" />
+        </li>
+
+      </ul>
+    </section>
+    <section class="personagem-selecionado">
+      <img class="personagem-grande" src="./src/imagens/card-homem-de-ferro.png" alt="Personagem Selecionado" />
+
+      <div class="informacoes-personagem">
+        <h2 class="nome-personagem" id="nome-personagem">Homem de ferro</h2>
+        <p class="descricao-personagem" id="descricao-personagem">
+          O Homem de Ferro é um símbolo de esperança e inspiração para pessoas de todo o mundo.
+          Ele é um lembrete de que qualquer um pode ser um herói, não importa suas origens.
+        </p>
+      </div>
+    </section>
+  </main>
+  <script src="./src/js/index.js"></script>
+</body>
+
+</html>
